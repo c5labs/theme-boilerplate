@@ -1,0 +1,1 @@
+#JavaScript should live here#
