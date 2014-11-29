@@ -1,5 +1,8 @@
 <?php
-namespace Concrete\Package\BoilerplateTheme\Theme\BoilerplateTheme;
+namespace Concrete\Package\ConcreteThemePackage\Theme\BoilerplateTheme;
+
+//use Theme;
+
 class PageTheme extends \Concrete\Core\Page\Theme\Theme {
 /*
     public function registerAssets() {
