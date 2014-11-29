@@ -15,4 +15,5 @@ defined('C5_EXECUTE') or die("Access Denied.");
     <?php Loader::element('header_required', array('pageTitle' => $pageTitle));?>
     <link rel="stylesheet" media="all" href="<?php  echo $this->getThemePath(); ?>/css/styles.css" />
 </head>
-<body class="<?php echo $c->getPageWrapperClass()?>">
+<body>
+    <div class="<?php echo $c->getPageWrapperClass()?>">
