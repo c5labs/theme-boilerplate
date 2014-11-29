@@ -10,7 +10,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'boilerplate_theme';
     protected $appVersionRequired = '5.7.1';
-    protected $pkgVersion = '1.0.0';
+    protected $pkgVersion = '2.0.0';
 
     public function getPackageName() 
     {

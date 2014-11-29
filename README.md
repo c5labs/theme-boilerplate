@@ -1,8 +1,10 @@
 ﻿#Concrete5 Theme Boilerplate#
 A blank HTML5 concrete5 theme package template to start development of a bespoke theme.
 
+**This package is for concrete 5.7.1+ for a < 5.6.x version see [here](https://github.com/olsgreen/concrete5-theme-boilerplate/tree/1.0).**
+
 ##Installation##
-1. Copy the 'boilerplate_theme' folder to your concrete5 instances 'packages' folder
+1. Copy the 'boilerplate_theme' folder to your concrete5 instances 'packages' folder (or even better, fork this repo and clone it into your packages directory)
 2. Rename the copied package & theme folders to your desired theme name
 3. Open 'description.txt' within the theme folder and update the title to your theme name.
 4. Login to the instance, click on the Settings icon on the right of the top bar, click 'Extend concrete5'.
