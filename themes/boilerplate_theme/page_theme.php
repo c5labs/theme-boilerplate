@@ -1,9 +1,9 @@
 <?php
 namespace Concrete\Package\ConcreteThemePackage\Theme\BoilerplateTheme;
 
-//use Theme;
+use Concrete\Core\Page\Theme\Theme as Theme;
 
-class PageTheme extends \Concrete\Core\Page\Theme\Theme {
+class PageTheme extends Theme {
 /*
     public function registerAssets() {
         //$this->providesAsset('javascript', 'bootstrap/*');
