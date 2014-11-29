@@ -11,5 +11,8 @@ A blank HTML5 concrete5 theme template to start development of a bespoke theme.
 
 ##Change Log##
 
+29-11-2014 - 2.0
+Initial upgrade to a 5.7.1 package based theme.
+
 31-07-2013 - 1.0
 * Initial release
