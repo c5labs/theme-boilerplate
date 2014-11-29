@@ -1,0 +1,7 @@
+<!-- 
+    @see http://www.concrete5.org/documentation/developers/5.7/designing-for-concrete5/enabling-style-customization/full-screencast/ 
+    for more information on using cusomizable styles in your theme. 
+!-->
+<?xml version="1.0"?>
+<styles version="1.0">
+</styles>
