@@ -9,10 +9,10 @@ defined('C5_EXECUTE') or die("Access Denied.");
 
 ?>
 <!doctype html>
-<html>
+<html lang="<?php echo Localization::activeLanguage()?>">
 <head>
     <meta charset="UTF-8">
     <?php Loader::element('header_required', array('pageTitle' => $pageTitle));?>
     <link rel="stylesheet" media="all" href="<?php  echo $this->getThemePath(); ?>/css/styles.css" />
 </head>
-<body>
+<body class="<?php echo $c->getPageWrapperClass()?>">
