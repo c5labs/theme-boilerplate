@@ -5,13 +5,6 @@ use Concrete\Core\Page\Theme\Theme as Theme;
 
 class PageTheme extends Theme {
 
-    /*
-     * See http://goo.gl/EbMMXu for complete list of
-     * methods available within this class.
-     *
-     * Examples are:
-     */
-
     public function getThemeName()
     {
         return t('Boilerplate Theme');
