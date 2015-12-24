@@ -6,12 +6,22 @@ use Concrete\Core\Page\Theme\Theme as Theme;
 class PageTheme extends Theme {
 
     /*
-     * See http://goo.gl/EbMMXu for complete list of 
+     * See http://goo.gl/EbMMXu for complete list of
      * methods available within this class.
      *
      * Examples are:
      */
-    
+
+    public function getThemeName()
+    {
+        return t('Boilerplate Theme');
+    }
+
+    public function getThemeDescription()
+    {
+        return t('A custom theme starting place.');
+    }
+
     /**
      * Register theme assets, see http://goo.gl/rpJUSy
      *
@@ -21,16 +31,16 @@ class PageTheme extends Theme {
      *    $this->requireAsset('javascript', 'jquery');
      * }
      */
-    
-    /** 
-     * Set the grid framework see http://goo.gl/1MFxbL
-     * 
-     * protected $pThemeGridFrameworkHandle = 'bootstrap3';
-     * 
-     */
-     
+
     /**
-     * Set the block CSS class overrides 
+     * Set the grid framework see http://goo.gl/1MFxbL
+     *
+     * protected $pThemeGridFrameworkHandle = 'bootstrap3';
+     *
+     */
+
+    /**
+     * Set the block CSS class overrides
      *
      * public function getThemeBlockClasses()
      * {
@@ -40,9 +50,9 @@ class PageTheme extends Theme {
      *         'content' => array('block-sidebar-wrapped'),
      *         'date_navigation' => array('block-sidebar-padded')
      *     );
-     * } 
+     * }
      */
-    
+
     /**
      * Set theme area CSS class overides
      *
@@ -53,7 +63,7 @@ class PageTheme extends Theme {
      *     );
      * }
      */
-     
+
     /**
      * Set default blocks template for the theme
      *
@@ -64,10 +74,10 @@ class PageTheme extends Theme {
      *     );
      * }
      */
-     
+
     /**
      * Set theme content editor styles classes
-     * 
+     *
      * public function getThemeEditorClasses()
      * {
      *     return array(
