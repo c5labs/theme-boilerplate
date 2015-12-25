@@ -3,13 +3,23 @@ namespace Concrete\Package\ConcreteThemePackage\Theme\BoilerplateTheme;
 
 use Concrete\Core\Page\Theme\Theme as Theme;
 
-class PageTheme extends Theme {
-
+class PageTheme extends Theme
+{
+    /**
+     * Theme name.
+     * 
+     * @return string
+     */
     public function getThemeName()
     {
         return t('Boilerplate Theme');
     }
 
+    /**
+     * Theme description.
+     * 
+     * @return string
+     */
     public function getThemeDescription()
     {
         return t('A custom theme starting place.');
