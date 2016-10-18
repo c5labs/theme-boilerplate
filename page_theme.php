@@ -1,29 +1,47 @@
 <?php
-namespace Concrete\Package\ConcreteThemePackage\Theme\BoilerplateTheme;
+/**
+ * Theme Boilerplate Theme Controller File.
+ *
+ * This file is used to specify settings & defaults 
+ * for the theme and blocks on pages that this theme is actived on.
+ *
+ * @author   Oliver Green <oliver@c5labs.com>
+ * @license  See attached license file
+ */
+namespace Concrete\Theme\ThemeBoilerplate;
 
 use Concrete\Core\Page\Theme\Theme as Theme;
 
+defined('C5_EXECUTE') or die("Access Denied.");
+
+/**
+ * Theme Boilerplate Theme Controller Class.
+ *
+ * @author   Oliver Green <oliver@c5labs.com>
+ * @license  See attached license file
+ */
 class PageTheme extends Theme
 {
     /**
-     * Theme name.
+     * The themes name.
      * 
-     * @return string
+     * @var string
      */
-    public function getThemeName()
-    {
-        return t('Boilerplate Theme');
-    }
+    protected $pThemeName = 'Theme Boilerplate';
 
     /**
-     * Theme description.
+     * The themes description.
      * 
-     * @return string
+     * @var string
      */
-    public function getThemeDescription()
-    {
-        return t('A custom theme starting place.');
-    }
+    protected $pThemeDescription = 'A theme boilerplate to start building from.';
+
+    /**
+     * The themes handle.
+     * 
+     * @var string
+     */
+    protected $pThemeHandle = 'theme-boilerplate';
 
     /**
      * Register theme assets, see http://goo.gl/rpJUSy

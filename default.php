@@ -2,10 +2,13 @@
 defined('C5_EXECUTE') or die("Access Denied.");
 
 /**
- * 'Default' fail over page for the theme
+ * Default Page Template.
  * 
- * @author Oliver Green <dubious@codeblog.co.uk>
- * @license http://www.gnu.org/licenses/gpl.html GPL
+ * This template is used by default for all pages that 
+ * are not single pages, dashboard pages or other system pages.
+ *
+ * @author   Oliver Green <oliver@c5labs.com>
+ * @license  See attached license file
  */
 
 $this->inc('elements/header.php');

@@ -1,0 +1,16 @@
+{
+    "name": "c5labs/theme-boilerplate",
+    "description": "A theme boilerplate to start building from.",
+    "type": "concrete5-theme",
+    "require": {
+        "composer/installers": "dev-concrete5-installation-path-updates"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Green",
+            "email": "oliver@c5labs.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

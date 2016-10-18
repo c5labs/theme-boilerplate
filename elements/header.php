@@ -13,7 +13,7 @@ defined('C5_EXECUTE') or die("Access Denied.");
 <head>
     <meta charset="UTF-8">
     <?php Loader::element('header_required', array('pageTitle' => $pageTitle));?>
-    <link rel="stylesheet" media="all" href="<?php  echo $this->getThemePath(); ?>/css/styles.css" />
+    <link rel="stylesheet" media="all" href="<?php echo $view->getStylesheet('styles.less')?>" />
 </head>
 <body>
     <div class="<?php echo $c->getPageWrapperClass()?>">

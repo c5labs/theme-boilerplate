@@ -1,2 +1,0 @@
-Concrete5 Boilerplate Theme
-Template to build a bespoke concrete5 template from.
