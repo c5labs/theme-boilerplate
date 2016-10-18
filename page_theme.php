@@ -44,6 +44,11 @@ class PageTheme extends Theme
     protected $pThemeHandle = 'theme-boilerplate';
 
     /**
+     * Set the grid framework see http://goo.gl/1MFxbL
+     */
+    protected $pThemeGridFrameworkHandle = 'bootstrap3'; 
+
+    /**
      * Register theme assets, see http://goo.gl/rpJUSy
      *
      * public function registerAssets() {
@@ -51,13 +56,6 @@ class PageTheme extends Theme
      *    $this->providesAsset('css', 'blocks/form');
      *    $this->requireAsset('javascript', 'jquery');
      * }
-     */
-
-    /**
-     * Set the grid framework see http://goo.gl/1MFxbL
-     *
-     * protected $pThemeGridFrameworkHandle = 'bootstrap3';
-     *
      */
 
     /**
