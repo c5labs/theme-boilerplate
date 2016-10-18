@@ -19,4 +19,6 @@ Note that if you are not familiar with concrete, want to generate a packaged the
 
 See the releases [here](https://github.com/c5labs/theme-boilerplate/releases).
 
-##License££
+##License##
+
+MIT (See included license file)
