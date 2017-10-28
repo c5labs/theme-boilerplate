@@ -10,6 +10,7 @@
  */
 namespace Concrete\Theme\ThemeBoilerplate;
 
+use Concrete\Core\Area\Layout\Preset\Provider\ThemeProviderInterface;
 use Concrete\Core\Page\Theme\Theme as Theme;
 
 defined('C5_EXECUTE') or die("Access Denied.");
@@ -20,7 +21,7 @@ defined('C5_EXECUTE') or die("Access Denied.");
  * @author   Oliver Green <oliver@c5labs.com>
  * @license  See attached license file
  */
-class PageTheme extends Theme
+class PageTheme extends Theme implements ThemeProviderInterface
 {
     /**
      * The themes name.
