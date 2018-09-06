@@ -110,10 +110,10 @@ class PageTheme extends Theme implements ThemeProviderInterface
 
     /**
      * Theme layout presets (bootstrap 3 tags used)
-     *
-     * public function getThemeAreaLayoutPresets()
-     * {
-     *     $presets = array(
+     */
+    public function getThemeAreaLayoutPresets()
+    {
+     /*     $presets = array(
      *         array(
      *             'handle' => 'left_sidebar',
      *             'name' => 'Left Sidebar',
@@ -133,7 +133,6 @@ class PageTheme extends Theme implements ThemeProviderInterface
      *             ),
      *         )
      *     );
-     *     return $presets;
-     * }
-     */
+     *     return $presets; */
+    }
 }
