@@ -113,26 +113,29 @@ class PageTheme extends Theme implements ThemeProviderInterface
      */
     public function getThemeAreaLayoutPresets()
     {
-     /*     $presets = array(
-     *         array(
-     *             'handle' => 'left_sidebar',
-     *             'name' => 'Left Sidebar',
-     *             'container' => '<div class="row"></div>',
-     *             'columns' => array(
-     *                 '<div class="col-sm-4"></div>',
-     *                 '<div class="col-sm-8"></div>'
-     *             ),
-     *         ),
-     *         array(
-     *             'handle' => 'right_sidebar',
-     *             'name' => 'Right Sidebar',
-     *             'container' => '<div class="row"></div>',
-     *             'columns' => array(
-     *                 '<div class="col-sm-8"></div>',
-     *                 '<div class="col-sm-4"></div>'
-     *             ),
-     *         )
-     *     );
-     *     return $presets; */
+        $presets = array();
+
+        /*  $presets = array(
+        *      array(
+        *          'handle' => 'left_sidebar',
+        *          'name' => 'Left Sidebar',
+        *          'container' => '<div class="row"></div>',
+        *          'columns' => array(
+        *              '<div class="col-sm-4"></div>',
+        *              '<div class="col-sm-8"></div>'
+        *          ),
+        *      ),
+        *      array(
+        *          'handle' => 'right_sidebar',
+        *          'name' => 'Right Sidebar',
+        *          'container' => '<div class="row"></div>',
+        *          'columns' => array(
+        *              '<div class="col-sm-8"></div>',
+        *              '<div class="col-sm-4"></div>'
+        *          ),
+        *      )
+        *   ); */
+        
+        return $presets;
     }
 }
